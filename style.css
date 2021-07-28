@@ -1,0 +1,176 @@
+header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color:white;
+  padding: 10px 40px;
+  margin-top: 10px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 60px;
+  width: 53%;
+  border: solid white;
+  border-radius: 15px; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  justify-content: center;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border:rgb(208, 238, 243) solid 1.5px;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, rgb(150, 235, 235) rgb(208, 238, 243));
+}
+
+
+.filterDiv {
+  float: left;
+  color: #070606;
+  display: none;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  padding-left: 30px;
+  padding-right: 20px;
+  margin-top: 50px;
+  margin-right: 5px;
+  margin-left: 0px;
+  height: 225px;
+  width: 170px;
+  border: solid rgb(24, 83, 94);
+  border-radius: 15px;
+}
+
+.show {
+  display: block;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  background-color: rgb(24, 83, 94);
+  font-family: 'Itim', cursive;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin: 80px 0px 0px 10px;
+  padding-bottom: 10px;
+  text-decoration:none;
+  font-size: 15px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn:hover {
+  background-color: rgb(160, 213, 223);
+  color: white;
+  cursor: pointer;
+}
+
+.btn.active {
+  background-color: rgb(145, 145, 145);
+  color: white;
+} 
+ 
+ body{
+    background-color:rgb(24, 83, 94);
+  
+}
+
+.container-main{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color:white;
+  padding: 10px 40px;
+  margin-top: 20px;
+  margin-left: 250px;
+  margin-right: 250px;
+  width: 53%;
+  border: solid white;
+  border-radius: 15px;  
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border:rgb(208, 238, 243) solid 1.5px;
+}
+
+#productHeading{
+  font-family: 'Itim', cursive;
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 0px;
+  padding: 0px; 
+}
+
+.productName{
+  font-family: 'Itim', cursive;
+  font-size: large;
+}
+
+.price{
+  font-family: 'Itim', cursive;
+  font-size: medium;
+}
+
+#products{
+  display: flex;
+  
+}
+
+.displayProduct{
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  padding-top: 10px;
+  padding-bottom: 100px;
+  padding-left: 30px;
+  padding-right: 20px;
+  margin-top: 50px;
+  margin-right: 5px;
+  margin-left: 0px;
+  height: 225px;
+  width: 200px;
+  border: solid black;
+  border-radius: 15px;
+   
+}
+#myBtnContainer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+
+.imageDiv{
+  height: 120px;
+  margin-top:50px;
+}
+
+.imageClass{
+  border-radius: 10px;
+}
+
+#btnAdd {
+  background-color: black;
+  border:none;
+  font-family: 'Itim', cursive;
+  color: white;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  margin-top: 10px;
+  text-decoration:none;
+  font-size: 15px;
+  border-radius: 30px;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-image: linear-gradient(to bottom, #a4a4df 0%, black, rgb(53, 53, 55) 100%)
+}
+
+#link-class{
+
+  float: right;
+}
